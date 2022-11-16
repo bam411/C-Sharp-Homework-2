@@ -12,3 +12,12 @@ int divideNumber = number / 10;
 int secondDigit = divideNumber % 10;
 
 Console.WriteLine($"{number} -> {secondDigit}");
+
+
+// working with any number like exercise 13
+
+//Console.Write("Введите число:");
+//int number = Convert.ToInt32(Console.ReadLine());
+//string numText = Convert.ToString(number);
+
+//Console.WriteLine($"{number} -> {numText[1]}");
