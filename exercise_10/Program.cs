@@ -5,11 +5,10 @@
 782 -> 8
 918 -> 1 */
 
-Console.Write("Введите число:");
+Console.Write("Введите трехзначное число:");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int divideNumber = number / 10;
 int secondDigit = divideNumber % 10;
 
-Console.WriteLine(number);
-Console.WriteLine(secondDigit);
+Console.WriteLine($"{number} -> {secondDigit}");
